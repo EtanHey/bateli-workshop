@@ -16,7 +16,7 @@ export default function Home() {
         <TimeNdDate />
         <IntroductionSection />
         <DescriptionMultiSection />
-        <SignupButton className='bg-red-color mt-3' />
+        <SignupButton className='bg-red-color shadow-red-signup-button-inner mt-3' />
         <WorkshopInfoSection />
         <Footer />
       </div>

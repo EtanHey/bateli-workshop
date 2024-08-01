@@ -13,7 +13,7 @@ const HeroImage = () => {
           <h1 className={`font-semibold ${myFont.className}`}>הגיע הזמן ״ לאהוב אותך ״</h1>
           <h2 className='font-thin'>סדנאת העצמה וסשן צילום</h2>
         </div>
-        <SignupButton className='bg-signup-orange' />
+        <SignupButton className='bg-signup-orange shadow-orange-signup-button-inner' />
       </div>
     </div>
   );
