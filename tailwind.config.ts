@@ -21,8 +21,9 @@ const config: Config = {
         'text-gray': '#585856',
       },
       boxShadow:{
-        "orange-signup-button-inner":"inset 0px 0px 4px 1px #ffffff;",
-        "red-signup-button-inner":"inset 0px 0px 5px 1px #ffffff;"
+        "orange-signup-button-inner":"inset 0px 0px 4px 1px #ffffff",
+        "red-signup-button-inner":"inset 0px 0px 5px 1px #ffffff",
+        "photo-inner-shadow":"inset 0px 0px 7px 3px #ffffff",
       }
     },
   },
