@@ -6,7 +6,7 @@ const assistant = Assistant({subsets: ['hebrew'], weight: ['200', '300', '400', 
 
 export const metadata: Metadata = {
   title: 'Bateli`s workshop',
-  description: 'סדנאת העצמה צילום'
+  description: 'סדנאת העצמה וצילום'
 };
 
 export default function RootLayout({
