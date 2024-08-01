@@ -70,14 +70,14 @@ const DescriptionMultiSection = () => {
       </Wrapper>
       <Wrapper>
         <SectionHeader>מוכנה להכיר חברות חדשות ?</SectionHeader>
-        <SectionText className='text-lg'>
+        <SectionText textSize='text-lg'>
           אני מאמינה שכדי לייצר חיים של הגשמה אנו זקוקים לסביבה מפתחת ומחקרים מדעיים כבר הוכיחו את <br /> גודלה ועוצמתה של הסביבה עלינו. <br /> אני פה להפגיש בין נשים מדהימות שרוצות להתפתח. בואו לפתוח את הלב ולהכיר עוד חברות שמכוונות לגדילה והגשמה.
         </SectionText>
       </Wrapper>
       <Wrapper>
         <SectionHeader>זמן צילומים -</SectionHeader>
-        <SectionText className='text-lg'>
-          <span className='font-semibold'>איך לא ? אני הולכת להקדיש זמן לכל אחת שמגיעה לסדנא לצילומים אישיים</span>, להשתחרר מול המצלמה <br /> וכל אחת תצא עם מספר תמונות איכותיות. <br /> מעבירה את היופי שלכן דרך העיניים שלי
+        <SectionText textSize='text-lg' >
+          <span className='font-bold'>איך לא ? אני הולכת להקדיש זמן לכל אחת שמגיעה לסדנא לצילומים אישיים</span>, להשתחרר מול המצלמה <br /> וכל אחת תצא עם מספר תמונות איכותיות. <br /> מעבירה את היופי שלכן דרך העיניים שלי
         </SectionText>
       </Wrapper>
     </>
