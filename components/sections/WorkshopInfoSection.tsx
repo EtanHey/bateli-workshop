@@ -1,0 +1,45 @@
+import React from 'react';
+import SectionWrapper from '../section-parts/Wrapper';
+import Image from 'next/image';
+
+const WorkshopInfoSection = () => {
+  return (
+    <SectionWrapper>
+      <div className='flex gap-4 font-light flex-col'>
+        <h2 className='font-semibold text-red-color'>פרטים על הסדנא:</h2>
+        <div className='text-text-gray'>
+          <h3 className='text-title-green'>לו״ז:</h3>
+          <p>10:30- התכנסות, בופה והרמת כוס יין</p>
+          <p>11:00- הרצאה משולבת תרגול</p>
+          <p>12:30-14:00- סשן צילומים אישי</p>
+        </div>
+        <div>
+          <h3 className='text-title-green'>עלות הסדנא - 320 ש״ח</h3>
+        </div>
+        <div>
+          <h3 className='text-title-green'>קוד לבוש - תבואו יפות לצילומים</h3>
+        </div>
+        <div className='text-text-gray flex flex-col'>
+          <h3 className='text-title-green'>כתובת:</h3>
+          {/* address */}
+          <p>
+            ”עדנה נווה מדבר יפואי“
+            <br />
+            דרך שלמה 6 תל אביב יפו
+          </p>
+          <span className='text-sm'>
+            *חניה בחניון חצרות יפו, צמוד לבניין <br /> ניתן להגיע בקלות גם בעזרת הרכבת הקלה
+          </span>
+          {/* workshop photo */}
+          <div className='relative mt-2 w-[95%] self-center aspect-[1.54/1] p-5'>
+            <Image src='/workshop.webp' alt='Workshop photo' fill className='rounded-2xl object-contain' />
+            {/* disclaimer */}
+          </div>
+          <p className='text-title-green'>מספר מקומות מוגבל</p>
+        </div>
+      </div>
+    </SectionWrapper>
+  );
+};
+
+export default WorkshopInfoSection;
