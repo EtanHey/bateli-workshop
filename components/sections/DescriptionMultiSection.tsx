@@ -5,7 +5,6 @@ import SectionHeader from '../section-parts/Header';
 import SectionText from '../section-parts/Text';
 import Wrapper from '../section-parts/Wrapper';
 
-
 const DescriptionMultiSection = () => {
   return (
     <>
@@ -14,7 +13,7 @@ const DescriptionMultiSection = () => {
         <SectionFlexInnerWrapper>
           <SectionHeader>מהנושאים הנלמדים בסדנא:</SectionHeader>
           <SectionText>
-            <ul>
+            <ul className='leading-tight'>
               <li className='flex gap-1 justify-center items-center'>
                 <ListDisc /> זיהוי נקודות מפנה בחיים.
               </li>
@@ -52,15 +51,14 @@ const DescriptionMultiSection = () => {
           איך הפכתי מילדה ביישנית <br /> לבחורה מלאת ביטחון ?
         </SectionHeader>
         <SectionText className='text-pretty'>
-          {' '}
           אספר את הסיפור האישי שלי <br /> מהיותי ילדה ביישנית ושונה עד ליצירת חיים מלאי בטחון, אהבה עצמית והגשמה
         </SectionText>
       </Wrapper>
       <Wrapper>
         <SectionHeader>איך לזמן מציאות ?</SectionHeader>
-        <SectionText>
+        <div className={`text-text-gray leading-8 font-light px-2 text-xl`}>
           כל הדרך מהשלב הראשון של משבר וקושי <br /> עד ליצירת החיים שתמיד חלמת . <br /> נלמד ונתרגל איך לעשות את זה נכון ויעיל
-        </SectionText>
+        </div>
       </Wrapper>
       <Wrapper>
         <SectionHeader>איך לאהוב את עצמי ?</SectionHeader>
@@ -71,12 +69,12 @@ const DescriptionMultiSection = () => {
       <Wrapper>
         <SectionHeader>מוכנה להכיר חברות חדשות ?</SectionHeader>
         <SectionText textSize='text-lg'>
-          אני מאמינה שכדי לייצר חיים של הגשמה אנו זקוקים לסביבה מפתחת ומחקרים מדעיים כבר הוכיחו את <br /> גודלה ועוצמתה של הסביבה עלינו. <br /> אני פה להפגיש בין נשים מדהימות שרוצות להתפתח. בואו לפתוח את הלב ולהכיר עוד חברות שמכוונות לגדילה והגשמה.
+          אני מאמינה שכדי לייצר חיים של הגשמה אנו זקוקים לסביבה מפתחת ומחקרים מדעיים כבר הוכיחו את <br /> גודלה ועוצמתה של הסביבה עלינו. <br /> אני פה להפגיש בין נשים מדהימות שרוצות להתפתח. בואו לפתוח את הלב ולהכיר עוד חברות <br /> שמכוונות לגדילה והגשמה.
         </SectionText>
       </Wrapper>
       <Wrapper>
         <SectionHeader>זמן צילומים -</SectionHeader>
-        <SectionText textSize='text-lg' >
+        <SectionText textSize='text-lg'>
           <span className='font-bold'>איך לא ? אני הולכת להקדיש זמן לכל אחת שמגיעה לסדנא לצילומים אישיים</span>, להשתחרר מול המצלמה <br /> וכל אחת תצא עם מספר תמונות איכותיות. <br /> מעבירה את היופי שלכן דרך העיניים שלי
         </SectionText>
       </Wrapper>
