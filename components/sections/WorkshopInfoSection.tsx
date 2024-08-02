@@ -31,9 +31,10 @@ const WorkshopInfoSection = () => {
             *חניה בחניון חצרות יפו, צמוד לבניין <br /> ניתן להגיע בקלות גם בעזרת הרכבת הקלה
           </span>
           {/* workshop photo */}
-          <div className='relative mt-2 w-[95%] self-center aspect-[1.54/1] p-5'>
-            <Image src='/workshop.webp' alt='Workshop photo' fill className='rounded-2xl object-contain' />
-            {/* disclaimer */}
+          <div className='z-50 mt-2 flex items-center justify-center'>
+            <div className='relative w-[95%] shadow-studio-photo-inner-shadow rounded-2xl aspect-[1.54/1]'>
+              <Image src='/workshop.webp' alt='Footer image' unoptimized fill className='rounded-2xl -z-10 object-cover' />
+            </div>
           </div>
           <p className='text-title-green'>מספר מקומות מוגבל</p>
         </div>

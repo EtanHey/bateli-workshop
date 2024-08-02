@@ -24,6 +24,7 @@ const config: Config = {
         "orange-signup-button-inner":"inset 0px 0px 4px 1px #ffffff",
         "red-signup-button-inner":"inset 0px 0px 5px 1px #ffffff",
         "photo-inner-shadow":"inset 0px 0px 7px 3px #ffffff",
+        "studio-photo-inner-shadow":"inset 0px 0px 5px 2px #ffffff",
       }
     },
   },
