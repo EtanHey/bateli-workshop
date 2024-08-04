@@ -33,7 +33,7 @@ const WorkshopInfoSection = () => {
           {/* workshop photo */}
           <div className='z-50 mt-2 flex items-center justify-center'>
             <div className='relative w-[95%] shadow-studio-photo-inner-shadow rounded-2xl aspect-[1.54/1]'>
-              <Image src='/workshop.webp' alt='Footer image' unoptimized fill className='rounded-2xl -z-10 object-cover' />
+              <Image src='/workshop.webp' alt='Footer image' fill className='rounded-2xl -z-10 object-cover' />
             </div>
           </div>
           <p className='text-title-green font-semibold'>מספר מקומות מוגבל</p>
