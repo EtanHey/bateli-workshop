@@ -12,7 +12,7 @@ export default function Home() {
     <main dir='rtl' className='w-full flex flex-col h-fit text-center'>
       <HeroImage />
       <div className='w-full pt-3 gap-3  flex flex-col relative h-fit text-center'>
-        <Image unoptimized className='-z-50 object-top object-cover' src='/page_background.webp' alt='background' fill priority />
+        <Image className='-z-50 object-top object-cover' src='/page_background.webp' alt='background' fill priority />
         <div className='flex flex-col items-center px-6 gap-3'>
           <TimeNdDate />
           <IntroductionSection />
