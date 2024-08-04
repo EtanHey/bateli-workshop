@@ -6,7 +6,8 @@ const assistant = Assistant({subsets: ['hebrew'], weight: ['200', '300', '400', 
 
 export const metadata: Metadata = {
   title: 'Bateli`s workshop',
-  description: 'סדנאת העצמה וצילום'
+  description: 'סדנאת העצמה וצילום',
+  authors: {name: 'Etan Heyman', url: 'https://www.linkedin.com/in/etanheyman/'}
 };
 
 export default function RootLayout({
