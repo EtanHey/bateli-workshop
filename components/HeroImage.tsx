@@ -1,9 +1,9 @@
-import Image from 'next/image';
-import React from 'react';
-import localFont from 'next/font/local';
-import SignupButton from './SignupButton';
+import Image from "next/image";
+import React from "react";
+import localFont from "next/font/local";
+import SignupButton from "./SignupButton";
 
-const myFont = localFont({src: '../fonts/hachalutzim.otf'});
+const myFont = localFont({ src: "../fonts/hachalutzim.otf" });
 const HeroImage = () => {
   return (
     <div className='relative w-full xl:h-[76svh] h-[344px]'>
@@ -13,9 +13,9 @@ const HeroImage = () => {
           <h1 className={`font-medium text-[44px] tracking-wide ${myFont.className}`}>
             הגיע הזמן <span className='tracking-normal'>״ לאהוב אותך ״</span>
           </h1>
-          <h2 className='font-thin'>סדנת העצמה וסשן צילום</h2>
+          <h2 className="font-thin">סדנת העצמה וסשן צילום</h2>
         </div>
-        <SignupButton className='bg-signup-orange shadow-orange-signup-button-inner' />
+        <SignupButton className="bg-signup-orange shadow-orange-signup-button-inner" />
       </div>
     </div>
   );
