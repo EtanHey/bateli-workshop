@@ -10,8 +10,10 @@ const HeroImage = () => {
       <Image src='/hero_image.webp' alt='Hero image' className='object-cover max-md:object-top' fill priority />
       <div className='absolute items-center flex flex-col gap-1 w-full text-center top-[5%] xl:top-[8%]'>
         <div className='text-4xl text-white flex flex-col gap-[8.3rem] xl:gap-96'>
-          <h1 className={`font-semibold ${myFont.className}`}>הגיע הזמן ״ לאהוב אותך ״</h1>
-          <h2 className='font-thin'>סדנאת העצמה וסשן צילום</h2>
+          <h1 className={`font-medium text-[44px] tracking-wide ${myFont.className}`}>
+            הגיע הזמן <span className='tracking-normal'>״ לאהוב אותך ״</span>
+          </h1>
+          <h2 className='font-thin'>סדנת העצמה וסשן צילום</h2>
         </div>
         <SignupButton className='bg-signup-orange shadow-orange-signup-button-inner' />
       </div>

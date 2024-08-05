@@ -1,5 +1,5 @@
 import React from 'react';
-import ListDisc from '../ListDisc';
+
 import SectionFlexInnerWrapper from '../section-parts/FlexInnerWrapper';
 import SectionHeader from '../section-parts/Header';
 import SectionText from '../section-parts/Text';
@@ -13,35 +13,17 @@ const DescriptionMultiSection = () => {
         <SectionFlexInnerWrapper>
           <SectionHeader>מהנושאים הנלמדים בסדנא:</SectionHeader>
           <SectionText>
-            <ul className='leading-tight'>
-              <li className='flex gap-1 justify-center items-center'>
-                <ListDisc /> זיהוי נקודות מפנה בחיים.
+            <ul className='leading-tight  marker:text-base list-disc text-center marker:text-title-green flex flex-col items-center'>
+              <li className='w-fit list-item'>זיהוי נקודות מפנה בחיים.</li>
+              <li className='list-item w-fit'>מהו זימון ואיך מזמנים?</li>
+              <li className='list-item w-fit'>על ספק, אמונות מגבילות והדרך לשחררן.</li>
+              <li className='list-item w-fit'>כוחה של המחשבה ותודעה.</li>
+              <li className='list-item w-fit'>אהבה וערך עצמי.</li>
+              <li className='list-item w-fit'>
+                מהן הפעולות שעלינו לעשות על מנת לקדם <br /> את החזון שלנו?
               </li>
-              <li className='flex gap-1 justify-center items-center'>
-                <ListDisc /> מהו זימון ואיך מזמנים?
-              </li>
-              <li className='flex gap-1 justify-center items-center'>
-                <ListDisc /> על ספק, אמונות מגבילות והדרך לשחררן.
-              </li>
-              <li className='flex gap-1 justify-center items-center'>
-                <ListDisc /> כוחה של המחשבה ותודעה.
-              </li>
-              <li className='flex gap-1 justify-center items-center'>
-                <ListDisc /> אהבה וערך עצמי.
-              </li>
-              {/* two lined list item, */}
-              <li className='flex gap-1 relative justify-center items-start'>
-                <span className='absolute right-0 -top-0.5'>
-                  <ListDisc />
-                </span>
-                מהן הפעולות שעלינו לעשות על מנת לקדם את החזון שלנו?
-              </li>
-              <li className='flex gap-1 justify-center items-center'>
-                <ListDisc /> חוק ה 5 שניות.
-              </li>
-              <li className='flex gap-1 justify-center items-center'>
-                <ListDisc /> חשיבות וערך הכרת התודה בחיינו.
-              </li>
+              <li className='list-item w-fit'>חוק ה 5 שניות.</li>
+              <li className='list-item w-fit'>חשיבות וערך הכרת התודה בחיינו.</li>
             </ul>
           </SectionText>
         </SectionFlexInnerWrapper>

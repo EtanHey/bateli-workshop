@@ -13,7 +13,7 @@ export default function Home() {
       <HeroImage />
       <div className='w-full pt-3 gap-3  flex flex-col relative h-fit text-center'>
         <Image className='-z-50 object-top object-cover' src='/page_background.webp' alt='background' fill priority />
-        <div className='flex flex-col items-center px-6 gap-3'>
+        <div className='flex flex-col items-center max-[380px]:px-1 px-6 gap-3'>
           <TimeNdDate />
           <IntroductionSection />
           <DescriptionMultiSection />
