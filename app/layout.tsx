@@ -9,8 +9,8 @@ const assistant = Assistant({
 
 export const metadata: Metadata = {
   title: "Bateli's workshop",
-  description: ״סדנת ׳לאהוב אותך׳״,
-  authors: {
+  description: "סדנת ׳לאהוב אותך׳",
+authors: {
     name: "Etan Heyman",
     url: "https://www.linkedin.com/in/etanheyman/",
   },
